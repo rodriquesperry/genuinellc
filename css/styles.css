@@ -1,0 +1,894 @@
+html {
+  padding: 0;
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  width: 100%;
+  color: #332421;
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden !important;
+}
+
+.row {
+  width: 100%;
+}
+
+.social-navbar {
+  width: 100%;
+}
+
+.social-links {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+
+.fa-brands {
+  color: #332421;
+  margin: 0 2rem;
+}
+
+.fa-facebook:hover {
+  color: #0275d8;
+}
+
+.fa-twitter:hover {
+  color: #0275d8;
+}
+
+.fa-pinterest:hover {
+  color: #d9534f;
+}
+
+.fa-youtube:hover {
+  color: #d9534f;
+}
+
+.navbar-collapse .fa-mobile-screen-button {
+  color: rgba(255, 255, 255, 0.55);
+  font-size: 1.1rem;
+  margin-right: 1rem;
+}
+
+.nav-phone {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.55);
+  margin: 0.5rem;
+}
+
+.nav-phone:hover {
+  color: #fff;
+}
+
+.secondary-navbar {
+  width: 100%;
+  background-color: #332421;
+  font-size: 1.3rem;
+}
+
+.secondary-navbar li a {
+  margin: 0 1rem;
+}
+
+.dropdwn {
+  position: relative;
+  display: inline;
+}
+
+.dropbtn {
+  border: none;
+}
+
+.dropdwn-content {
+  display: none;
+  position: absolute;
+  width: 260px;
+  z-index: 2;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  border: 0.5px solid #fff;
+}
+
+.dropdwn-content a {
+  text-decoration: none;
+  display: block;
+}
+
+.dropdwn-content a:hover {
+  color: #fff;
+}
+
+.dropdwn:hover .dropdwn-content {
+  display: block;
+  background-color: #332421;
+}
+
+.dropdwn:hover .dropbtn {
+  color: #fff;
+}
+
+.carousel {
+  width: 100%;
+  position: absolute;
+}
+
+.carousel .carousel-inner {
+  height: 600px;
+}
+
+.carousel .carousel-inner .carousel-item > img {
+  width: auto;
+}
+
+.carousel-caption {
+  top: 30%;
+  transform: translatey(-50%);
+  bottom: initial;
+}
+
+.carousel-caption-inner {
+  padding: 1rem;
+  width: 100%;
+  background-color: #33242183;
+}
+
+.main-content-container {
+  width: 100%;
+  height: 100vh;
+  background-color: #e5d3b3;
+  position: relative;
+  z-index: 1;
+  top: 33.9rem;
+}
+
+.header-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 3rem;
+  text-align: center;
+  color: #332421;
+  border-bottom: 1.5rem solid #fff;
+}
+
+.content-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  background: #332421;
+}
+
+.img-container {
+  padding: 5rem;
+}
+
+.img-container img {
+  width: 70%;
+  margin-top: 7rem;
+  box-shadow: 3px 3px #c3e7f5;
+}
+
+.img-container #img2 {
+  width: 100%;
+  margin-top: 9rem;
+  box-shadow: 3px 3px #c3e7f5;
+}
+
+.content-container {
+  width: 100%;
+}
+
+.content-second-div {
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  padding: 6rem;
+}
+
+.common-p-size {
+  font-size: 1.3rem;
+}
+
+.content-container-bckgrnd-2 {
+  background-color: grey;
+}
+
+.call-today {
+  margin: auto;
+  position: relative;
+  text-align: center;
+  background-color: #0274d8b6;
+  width: 100%;
+}
+
+.call-today a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 2.5rem;
+}
+
+.satisfaction-container {
+  width: 100%;
+}
+
+.satisfaction {
+  padding: 5rem;
+}
+
+.satisfaction-image {
+  padding: 7rem 5rem;
+}
+
+.satisfaction-image img {
+  width: 80%;
+}
+
+.contact-container {
+  width: 100%;
+  background-color: #c3e7f5;
+  padding-bottom: 5rem;
+}
+
+.contact-blurb-container {
+  text-align: center;
+}
+
+.contact-form-header {
+  padding: 5rem 5rem 0;
+}
+
+.contact-blurb {
+  margin-top: 3rem;
+  padding: 0 5rem;
+  font-size: 1.2rem;
+}
+
+.focused-input {
+  border-color: rgba(82,168,236,.8);
+  outline: 0;
+  outline: thin dotted \9;
+  -moz-box-shadow: 0 0 8px rgba(82,168,236,.6);
+  box-shadow: 0 0 8px rgba(82,168,236,.6) !important;
+}
+
+.warning {
+  border: 2px solid red;
+}
+
+.form-heading {
+  padding: 5rem 5rem 0;
+}
+
+.contact-form-container {
+  padding: 5rem 5rem 0;
+}
+
+.contact-button {
+  width: 100%;
+}
+
+.footer-container {
+  padding-bottom: 7rem;
+  width: 100%;
+}
+
+.footer-logo-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-logo {
+  margin-top: 5rem;
+}
+
+.gmb-map-container {
+  margin: 3rem;
+}
+
+.gmb-map-container p {
+  margin: 0;
+}
+
+.footer-contact-info-container {
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  justify-content: center;
+  margin: 3.5rem 0 0 6rem;
+  font-size: 1.2rem;
+}
+
+.business-hours {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+hr {
+  margin: 5rem 20rem 0;
+}
+
+footer {
+  width: 100%;
+  padding: 2rem;
+}
+
+/* About Us Page */
+
+header {
+  margin-top: 5rem;
+}
+
+.about-img-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 3rem;
+}
+
+.about-img {
+  width: 100%;
+}
+
+.about-blurb {
+  padding: 5rem;
+}
+
+/* Kitchen.html */
+
+.kitchen-container {
+  padding: 5rem;
+}
+
+.services-remodel-pic {
+  float: right;
+  width: 30%;
+  margin: 2rem 0 0 2rem;
+}
+
+/* Bathroom.html */
+.contact-us-link {
+  padding: 0;
+  margin: 0;
+}
+/* Room.html */
+#siding {
+  width: 25%;
+  height: 50%;
+}
+/* Outdoor.html */
+/* Contact.html */
+.contact-page-container {
+  background-image: url(./../img/general-contractor.jpeg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-attachment: fixed;
+  width: auto;
+  height: 50vh;
+}
+
+.contactUs-container {
+  padding: 5rem;
+}
+
+.contact-page-form-container {
+  margin-top: 3rem;
+}
+
+.contactUs-form-container {
+  text-align: center;
+}
+
+.contact-form-container {
+  padding: 0 8rem;
+}
+
+.contact-page-form-container {
+  text-align: left;
+}
+
+.contactUs-form-container p {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.give-us-a-call {
+  text-align: center;
+}
+
+.give-us-a-call h1 a {
+  font-weight: bold;
+  color: aqua;
+}
+
+#logo-contact {
+  width: 400px;
+  margin-top: 5rem;
+}
+
+.services-remodel-pic-sm {
+  display: none;
+}
+
+.thank-you-container {
+  background-image: url('../img/home-renovation.jpeg');
+  width: 100%;
+  height: 100vh;
+  align-items: center;
+}
+
+.thank-you-container .col {
+  display: flex;
+  justify-content: center;
+}
+
+.thank-you-blurb {
+  background-color: #c3e7f5bb;
+  border: 3px solid #fff;
+  padding: 5rem;
+  font-weight: bolder;
+}
+
+/* Dashboard */
+.dashboard-container .col {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 12rem;
+}
+
+.dashboard-container h1 {
+  font-size: 8rem;
+}
+
+/* Admin Page Table */
+.leads-card {
+  height: 500px;
+}
+
+table {
+  display: flex;
+  flex-flow: column;
+  height: 100%;
+  width: 100%;
+}
+
+table thead {
+  flex: 0 0 auto;
+  width: calc(100% - 0.9em);
+  color: rgba(0, 0, 0, 0.678);
+}
+
+table tbody {
+  height: 300px;
+  flex: 1 1 auto;
+  display: block;
+  overflow: scroll;
+  color: rgba(0, 0, 0, 0.678);
+}
+
+table tbody tr {
+  width: 100%;
+}
+
+table thead,
+table tbody tr {
+  display: table;
+  table-layout: fixed;
+}
+
+.lead-count {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 1rem;
+}
+
+@media screen and (max-width: 1024px) {
+  .carousel-caption {
+    top: 40%;
+  }
+
+  .main-content-container {
+    top: 34rem;
+  }
+
+  .img-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+  }
+
+  .content-second-div {
+    padding: 2rem;
+  }
+
+  #img2 {
+    padding: 0;
+    width: 70%;
+  }
+
+  .satisfaction-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+  }
+
+  .satisfaction {
+    padding: 2rem;
+  }
+
+  .about-blurb {
+    padding: 1rem;
+  }
+
+  .footer-logo-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .social-links {
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin: 1rem 0;
+  }
+
+  .main-content-container {
+    top: 24rem;
+  }
+
+  .carousel-caption {
+    top: 40%;
+  }
+
+  .header-container {
+    padding: 1rem;
+    text-align: center;
+    color: #332421;
+    border-top: 1.5rem solid #fff;
+  }
+
+  #main-container-h2 {
+    font-size: 1.2rem;
+    font-weight: bolder;
+    padding: 0 1rem;
+  }
+
+  #main-container-h5 {
+    font-size: 1rem;
+    padding: 0 1rem;
+  }
+
+  .img-container {
+    padding: 5rem;
+  }
+
+  .img-container img {
+    margin-top: 2rem;
+    width: 100%;
+    box-shadow: 3px 3px #c3e7f5;
+  }
+
+  .img-container #img2 {
+    margin-top: 2rem;
+    width: 100%;
+    box-shadow: 3px 3px #c3e7f5;
+    padding: 0;
+  }
+
+  .content-second-div {
+    padding: 0 5rem 5rem;
+  }
+
+  .satisfaction-image {
+    padding: 5rem 5rem 0;
+  }
+
+  .satisfaction-image img {
+    width: 100%;
+  }
+
+  .form-heading {
+    padding: 2rem 5rem 0;
+  }
+
+  .contact-form-container {
+    padding: 2rem 2rem 3rem;
+  }
+
+  .services-remodel-pic {
+    display: none;
+  }
+
+  .services-remodel-pic-sm {
+    display: block;
+    width: 100%;
+    margin-bottom: 2rem;
+    padding: 0 4rem 0;
+  }
+
+  /* .services-text {
+    text-align: center;
+  } */
+
+  .kitchen-container {
+    padding: 1rem;
+  }
+
+  #siding {
+    width: 100%;
+  }
+
+  .contactUs-container {
+    padding: 1rem;
+  }
+
+  .give-us-a-call {
+    margin-top: 3rem;
+  }
+
+  .footer-container {
+    padding: 0;
+  }
+
+  .footer-logo-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+  }
+
+  .footer-contact-info-container {
+    margin: 3rem 0;
+    text-align: center;
+  }
+
+  .thank-you-blurb {
+    background-color: #c3e7f5bb;
+    border: 3px solid #fff;
+    padding: 3rem;
+    margin-left: 1rem;
+    font-weight: bolder;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .social-links {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin: 1rem 0;
+  }
+
+  .brand {
+    display: flex;
+    justify-content: center;
+  }
+
+  .carousel .carousel-item > img {
+    width: auto;
+  }
+
+  .carousel-caption {
+    top: 46%;
+  }
+
+  .carousel-caption-inner h2 {
+    margin-top: 1.8rem;
+    font-size: 1.8rem;
+  }
+
+  .carousel-caption button {
+    width: 100%;
+  }
+
+  .carousel-caption button h4 {
+    font-size: 1rem;
+  }
+
+  .main-content-container {
+    top: 12.5rem;
+  }
+
+  .header-container {
+    padding: 1rem;
+    text-align: center;
+    color: #332421;
+    border-top: 1.5rem solid #fff;
+  }
+
+  #main-container-h2 {
+    font-size: 1.2rem;
+    font-weight: bolder;
+    padding: 0 1rem;
+  }
+
+  #main-container-h5 {
+    font-size: 1rem;
+    padding: 0 1rem;
+  }
+
+  .img-container {
+    padding: 2rem;
+  }
+
+  .img-container img {
+    margin-top: 2rem;
+    width: 100%;
+    box-shadow: 3px 3px #c3e7f5;
+  }
+
+  .img-container #img2 {
+    margin-top: 2rem;
+    width: 100%;
+    box-shadow: 3px 3px #c3e7f5;
+    padding: 0;
+  }
+
+  .common-p-size {
+    text-align: center;
+  }
+
+  .content-mobile {
+    padding: 0 2rem;
+    margin-bottom: 2rem;
+  }
+
+  #services-blurb {
+    margin-top: 2rem;
+  }
+
+  .satisfaction-image {
+    padding: 2rem 2rem 0;
+  }
+
+  .satisfaction-image img {
+    width: 100%;
+  }
+
+  .contact-form-header {
+    padding: 5rem 1.5rem 0;
+  }
+
+  .contact-blurb {
+    margin-top: 2rem;
+    padding: 0 1rem;
+    font-size: 1.2rem;
+  }
+
+  .form-heading {
+    padding: 5rem 5rem 0;
+  }
+
+  .contact-form-container {
+    padding: 2rem 2rem;
+  }
+
+  .footer-container {
+    padding: 0;
+  }
+
+  .footer-logo-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+  }
+
+  .gmb-map-container {
+    width: 100%;
+  }
+
+  .gmb-map-container iframe {
+    width: 100%;
+    margin-left: calc(1% + 0.5rem);
+  }
+
+  .footer-contact-info-container {
+    margin: 3rem 0;
+    text-align: center;
+  }
+
+  #payment {
+    padding: 0 1rem;
+  }
+
+  footer {
+    padding-top: 0;
+  }
+
+  #about-us-heading {
+    margin-bottom: 3rem;
+  }
+
+  .about-blurb {
+    padding: 4rem;
+  }
+
+  .about-blurb h4 {
+    margin-bottom: 2rem;
+  }
+
+  hr {
+    display: none;
+  }
+
+  .services-remodel-pic {
+    display: none;
+  }
+
+  .services-remodel-pic-sm {
+    display: block;
+    width: 100%;
+    margin-bottom: 2rem;
+  }
+
+  /* .services-text {
+    text-align: center;
+  } */
+
+  .kitchen-container {
+    padding: 1rem;
+  }
+
+  #siding {
+    width: 100%;
+  }
+
+  .contactUs-container {
+    padding: 1rem;
+  }
+
+  .give-us-a-call {
+    margin-top: 3rem;
+  }
+
+  .contactUs-container {
+    padding: 3rem 0.5rem;
+  }
+
+  .thank-you-blurb {
+    background-color: #c3e7f5bb;
+    border: 3px solid #fff;
+    padding: 2rem;
+    margin-left: 1rem;
+    font-weight: bolder;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .carousel-caption-inner h2,
+  h4 {
+    display: none;
+  }
+
+  .carousel-caption-inner button h4 {
+    display: block;
+  }
+
+  .main-content-container {
+    top: 8rem;
+  }
+}
